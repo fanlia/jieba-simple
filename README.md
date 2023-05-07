@@ -13,7 +13,7 @@ for await (const word of jieb.cut('我来到北京清华大学')) {
     result.push(word)
 }
 console.log(result)
-#=> ['我', '来到', '北京', '清华大学']
+//=> ['我', '来到', '北京', '清华大学']
 ```
 
 ### python3
