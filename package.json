@@ -1,0 +1,13 @@
+{
+  "name": "jieba-simple",
+  "version": "1.0.0",
+  "description": "不同语言实现结巴分词算法(按字典)",
+  "main": "jieba.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
