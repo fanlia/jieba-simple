@@ -25,6 +25,18 @@ print(result)
 #=> ['我', '来到', '北京', '清华大学']
 ```
 
+### go
+
+```go
+sentence := "我来到北京清华大学"
+result := []string{}
+for word := range jieba.Cut(sentence) {
+    result = append(result, word)
+}
+fmt.Println(result)
+//=> ['我', '来到', '北京', '清华大学']
+```
+
 ## 感谢
 
 https://github.com/fxsjy/jieba
