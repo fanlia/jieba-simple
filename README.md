@@ -37,6 +37,13 @@ fmt.Println(result)
 //=> ['我', '来到', '北京', '清华大学']
 ```
 
+### zig
+
+```sh
+cd jieba-zig
+zig build run
+```
+
 ## 感谢
 
 https://github.com/fxsjy/jieba
